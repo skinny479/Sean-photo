@@ -4,7 +4,7 @@
 Static site: no build step, no dependencies. Open `index.html` in a browser.
 
 ## Customize
-1. Search `index.html` for `Sean Rogers`, `yourhandle` and replace them.
+1. Search `index.html` for the remaining `[bracketed]` placeholders (year started, camera model, favorite subjects) and replace them.
 2. Replace each `<div class="ph ...">` in the gallery with `<img src="images/photo.jpg" alt="description">`.
    Resize photos to about 1800px wide and compress them (squoosh.app) before adding.
 3. Edit the packages and prices in the Pricing section.
