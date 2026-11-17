@@ -20,7 +20,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 
 // Scroll reveal
-var revealEls = document.querySelectorAll('.section h2, .proof div, .card, .about > *, .gallery figure, .form');
+var revealEls = document.querySelectorAll('.section h2, .proof div, .card, .about > *, .steps li, .gallery figure, .form');
 revealEls.forEach(function (el) { el.classList.add('reveal'); });
 if ('IntersectionObserver' in window) {
   var io = new IntersectionObserver(function (entries) {
