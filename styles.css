@@ -86,3 +86,4 @@ footer a{color:var(--white)}
 .lb-close{top:1.2rem;right:1.2rem}.lb-prev{left:1.2rem;top:50%}.lb-next{right:1.2rem;top:50%}
 .lb-cap{position:absolute;bottom:1.2rem;left:0;right:0;text-align:center;color:var(--muted-d);font-size:.8rem;letter-spacing:.06em;padding:0 5vw}
 @media(prefers-reduced-motion:reduce){.hero::before{animation:none}.js .reveal{opacity:1;transform:none;transition:none}.gallery img,.gallery figure::after{transition:none}}
+.tag{border-left:3px solid var(--blue);padding-left:1rem;color:var(--navy);font-weight:600;margin-top:1.5rem}
