@@ -12,7 +12,7 @@ nav{display:flex;gap:1.6rem;align-items:center}nav a{text-decoration:none;color:
 nav .btn-small{padding:.5rem 1rem;color:var(--white)}
 .btn-ghost{background:transparent;color:var(--white);border:1px solid #4a4f5c;margin-left:.6rem}
 .btn-ghost:hover{background:var(--white);color:var(--black);border-color:var(--white)}
-.hero{min-height:82vh;display:flex;align-items:center;padding:0 5vw;background:var(--black);color:var(--white);border-bottom:4px solid var(--navy)}
+.hero{min-height:82vh;display:flex;align-items:center;padding:0 5vw;background:linear-gradient(90deg,rgba(5,5,6,.93) 0%,rgba(5,5,6,.6) 55%,rgba(5,5,6,.2) 100%),url(images/car-corvette-night.jpg) center 62%/cover no-repeat,var(--black);color:var(--white);border-bottom:4px solid var(--navy)}
 .hero-text{max-width:720px}.hero h1{font-size:clamp(2.6rem,7vw,5.2rem);font-weight:700;margin:.6rem 0 1.2rem}
 .hero p{color:var(--muted-d);font-size:1.1rem;margin:0 0 2rem}.hero p.eyebrow{margin:0}
 .eyebrow{color:var(--blue);text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;font-weight:600}
@@ -56,3 +56,8 @@ footer{text-align:center;padding:2.5rem;background:var(--black);color:var(--mute
 footer a{color:var(--white)}
 @media(max-width:700px){nav a:not(.btn){display:none}.about{grid-template-columns:1fr;gap:2rem}.section{padding:4rem 5vw}}
 .portrait-img{width:100%;height:100%;min-height:420px;max-height:560px;object-fit:cover;object-position:50% 12%;display:block}
+.dark .filters button{border-color:#2b2e38;color:var(--muted-d)}
+.dark .filters button:hover{border-color:var(--white);color:var(--white)}
+.dark .filters button.active{background:var(--blue);border-color:var(--blue);color:var(--white)}
+.dark .lead{color:var(--muted-d)}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
