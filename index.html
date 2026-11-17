@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; form-action 'self' mailto:; connect-src https://api.web3forms.com;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; form-action 'self' mailto:;">
 <title>SeanSnaps Studio | Portraits, Events &amp; Senior Photos</title>
 <meta name="description" content="SeanSnaps Studio by Sean Rogers: affordable portrait, senior, sports and event photography in Springdale, Arkansas and Northwest Arkansas. Book a session today.">
 <link rel="stylesheet" href="styles.css">
@@ -101,7 +101,6 @@
     <h2>Book a Session</h2>
     <p class="lead">Tell me what you have in mind and I'll reply within 48 hours.</p>
     <form id="bookForm" class="form" action="mailto:seandr2004@icloud.com" method="post" enctype="text/plain">
-      <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
       <label>Name <input name="name" required maxlength="80" autocomplete="name"></label>
       <label>Email <input type="email" name="email" required maxlength="120" autocomplete="email"></label>
       <label>Package
@@ -112,7 +111,6 @@
       <label>Preferred date <input type="date" name="date"></label>
       <label>Details <textarea name="details" rows="4" maxlength="1000"></textarea></label>
       <button class="btn" type="submit">Send Request</button>
-      <p id="formMsg" class="note" role="status"></p>
     </form>
     <p class="note">Prefer email? <a href="mailto:seandr2004@icloud.com">seandr2004@icloud.com</a></p>
   </section>

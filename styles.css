@@ -60,4 +60,3 @@ footer a{color:var(--white)}
 .dark .filters button:hover{border-color:var(--white);color:var(--white)}
 .dark .filters button.active{background:var(--blue);border-color:var(--blue);color:var(--white)}
 .dark .lead{color:var(--muted-d)}
-.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
